@@ -1,0 +1,552 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background-image: url(../Images/fe50a87a104aa558212a1abf37f00677.jpg);
+    background-size: cover;
+    // background-attachment: fixed;
+    background-repeat: none;
+    background-position: center;
+    min-height: 100vh;
+    // width: 100%;
+    font-family: serif;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+nav {
+    background-color: #296E97;
+    //box-shadow: 10px 0px 10px 5px #404040;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0px 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: lightgrey;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 350px;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(30px);
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+    font-size: 20px;
+    color: black;
+}
+
+.sidebar i {
+    margin-right: 20px;
+}
+
+#menu-bar {
+    font-size: 25px;
+}
+
+#menuBar {
+    font-size: 30px;
+}
+
+.first-link {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: oblique;
+    //color: blue ;
+}
+
+.menuBtn {
+    display: none;
+}
+
+.btn {
+    background-image: linear-gradient(45deg, white, grey);
+    border-radius: 30px;
+    width: 242px;
+    margin-bottom: 6px;
+}
+
+.btn a {
+    color: black;
+}
+
+@media screen and (max-width:567px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menuBtn {
+        display: block;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+.search {
+    width: ;
+}
+
+.content {
+    color: lightgrey;
+    padding-top: 30%;
+}
+
+.content b {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.content h1 {
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 20px;
+    width: 96%;
+    margin: auto;
+    font-weight: 400;
+}
+
+.content #Img img {
+    width: 100%;
+    border-radius: 10px;
+    min-height: 70vh;
+    padding-top: 20px;
+}
+
+.content #Img {
+    width: 98%;
+    margin: auto;
+}
+
+.Btn {
+    margin: 30px auto;
+    text-align: center;
+    background-color:#8774FF;
+    width: 220px;
+    height: 70px;
+    line-height: 70px;
+   // box-shadow: 5px 5px 5px 1px #323232;
+    border-radius: 5px;
+}
+ .Btn a {
+    font-size: 28px;
+    text-decoration: none;
+    color:#FFFFE8;
+font-family: san-serif;
+}
+
+.more-content {
+    padding-top: 40px;
+    text-align: center;
+    background-image: url(../Images/78b947ca50de7359ea3d7f18cafd4ad7.jpg);
+    background-size: cover;
+    // background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    // width: 100%;
+
+}
+
+.more-content h2 {
+    color: #313986;
+    width: 96%;
+    margin: auto;
+    opacity: ;
+}
+
+.ConTent {
+    margin: 30px auto;
+    width: 94%;
+    margin: ;
+}
+
+.ConTent h3 {
+    color: #7A59A3;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: serif;
+    font-style: oblique;
+}
+
+.ConTent p {
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: serif;
+}
+
+.ConTent img {
+    width: 96%;
+    margin: auto;
+    min-height: ;
+    margin-top: 10px;
+}
+
+//Social proof 
+.section {
+    width: 100%;
+    font-family: serif;
+}
+
+.section .about {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.about .title {
+
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section .about .title {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #313986;
+}
+}
+
+.conTent {
+
+    width: 100%;
+}
+
+.conTent .article h3 {
+    color: #313986;
+    font-size: 20px;
+    font-style: oblique;
+
+
+}
+
+.conTent .article p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.conTent input a:hover {
+    color: #f28f92;
+    transition: 1s ease;
+}
+
+.social {
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    display: inline-block;
+    padding-left: 40%;
+}
+
+.social a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #c430d9;
+    margin: 0px 5px;
+    position: relative;
+    float: left;
+
+
+
+}
+
+.social a img:hover {
+    color: #000;
+    background-color: #f28f92;
+    transition: 1s ease;
+    transform: rotate(360deg);
+}
+
+@media screen and(max-width:760px) {
+    .section {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .section .about {
+        width: 80%;
+        display: block;
+        margin: auto;
+
+    }
+
+    .conTent {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+        display: flex;
+    }
+
+    .image-section {
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+    }
+
+    .image-section img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        float: none;
+        display: flex;
+    }
+
+    .about .title h1 {
+        text-align: center;
+        font-size: 30px;
+        display: flex;
+    }
+
+    .conTent .article .button a {
+
+
+        width: 200px;
+    }
+
+    .conTent .social img {
+        font-size: 19px;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        display: flex;
+    }
+}
+
+#button {
+    text-align: center;
+    background: grey;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: serif;
+    font-style: oblique;
+
+}
+
+
+.services {
+    width: 100%;
+    min-height: 100vh;
+
+    background-position: center;
+    padding: 10px 7%;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.sector-1 {
+    width: 100%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 20px;
+}
+
+.words {
+    display: block;
+
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.words h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20%;
+}
+
+.words p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10%;
+}
+
+.cards {
+    background-color: #fff;
+    // box-shadow: 0 20px 40px rgb(58, 92, 185);
+width: 100%;
+height: auto;
+margin: auto;
+
+//border-bottom: none;
+}
+
+
+.cards .section-img img{
+height: 250px;
+width: 100%;
+}
+
+.contentsss {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.contentsss h2 {
+    letter-spacing: 1.5px;
+}
+
+.contentsss h3 {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.contentsss p {
+    margin: 15px 0px;
+    font-size: 15px;
+}
+
+@media screen and(max-width:567px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 90%;
+        display: flex;
+        margin: 20px 0px;
+    }
+}
+.sector-2 {
+width: 100%;
+height: 1550px;
+border: 2px solid;
+grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+grid-gap: 20px;
+background: #31636D;
+//opacity:80% ;
+}
+.sector-2 h2{
+font-size: 30px;
+color: ;
+width: 90%;
+margin: auto;
+height: 150px;
+line-height: 150px;
+text-align: center;
+}
+.sector-2 .offer{
+width: 90%;
+display: flex;
+flex-direction: column;
+height: auto;
+}
+.sector-2 .offer h3{
+font-size: 20px;
+text-align: center;
+width: 100%;
+}
+.sector-2 .offer p{
+font-size: 16px;
+text-align: left;
+line-height: 1.5;
+width: 90%;
+margin:auto;
+height: 280px;
+}
+.sector-2 .offer i{
+font-size: 70px;
+color: slateblue;
+width: 100%;
+height: 150px;
+text-align: center;
+}
+@media screen and(max-width:567px) {
+    .sector-2 {
+        display: flex;
+        flex-direction: column;
+width:100px ;
+    }
+
+    .offer {
+        width: 90%;
+        display: flex;
+        margin: 20px auto;
+    }
+}
+form{
+width: 100%;
+height: 200px;
+border: 1px solid;
+}
+form input{
+
+height: 40px;
+font-size: 16px;
+font-weight: 300;
+}
+#name{
+width: 95%;
+margin: auto;
+}
